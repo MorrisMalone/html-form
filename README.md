@@ -1,0 +1,1 @@
+Project from The Odin Project Curriculum on building and styling a HTML form (no focus on making it works though).
