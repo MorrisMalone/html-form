@@ -1,13 +1,76 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>HTML form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
+
 <body>
-    
+    <header id="intuit">
+        intuit
+    </header>
+    <section>
+        <div class="brands">
+            <span>
+                <i class="fas fa-check-circle"></i> turbotax</span>
+            <span>
+                <i class="fab fa-adn"></i> quickbooks</span>
+            <span>
+                <i class="fas fa-leaf"></i> mint</span>
+        </div>
+        <header>
+            <p>
+                One Account.
+                <br>Everything Intuit.
+            </p>
+            <p>
+                Create an account for all of Intuit's products including Mint.
+                <a href="#">Learn more</a>
+                <br> Already have an account?
+                <a href="#">Sign In</a>
+            </p>
+        </header>
+        <form>
+            <fieldset class="register">
+                <label>
+                    Email address
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Phone (recommended)
+                    <input type="tel" name="tel">
+                    <span class="tel-rates">Standard call, messaging or data rates may apply.</span>
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password" required>
+                </label>
+            </fieldset>
+            <button id="create-account">
+                <i class="fas fa-lock"></i> Create Account</button>
+        </form>
+        <footer>
+            By clicking Create Account, you agree to our
+            <a href="#">License Agreement</a> and have read and acknowledge our
+            <a href="#">Privacy Statement</a>.
+        </footer>
+    </section>
+    <footer id="main-footer">
+        <h4>intuit</h4>
+        Mint bill pay services provided by Intuit Payments Inc. under applicable <a href="#">licenses</a>.
+        <br> Legal Privacy Security
+        <br> © 2018 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks
+        of Intuit Inc.
+        <br> Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    </footer>
+
 </body>
+
 </html>
